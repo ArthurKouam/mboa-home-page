@@ -134,7 +134,7 @@
       <Icon class=" px-10 " v-for="(icon, n) in icons" :icon="'/src/assets/icon/'+ icon"></Icon>
     </Vue3Marquee>
 
-    <div class="grid grid-cols-12">
+    <div class="md:grid md:grid-cols-12">
       <div class="md:col-span-3 mb-4">
         <h4 class="md:text-[32px] text-[24px] md:leading-[40px]">Expertise</h4>
       </div>
