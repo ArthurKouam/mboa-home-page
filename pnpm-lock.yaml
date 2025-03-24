@@ -11,9 +11,6 @@ importers:
       '@tailwindcss/vite':
         specifier: ^4.0.9
         version: 4.0.9(vite@6.2.0(jiti@2.4.2)(lightningcss@1.29.1))
-      '@vercel/analytics':
-        specifier: ^1.5.0
-        version: 1.5.0(vue-router@4.5.0(vue@3.5.13))(vue@3.5.13)
       lucide-vue-next:
         specifier: ^0.477.0
         version: 0.477.0(vue@3.5.13)
@@ -553,32 +550,6 @@ packages:
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
-
-  '@vercel/analytics@1.5.0':
-    resolution: {integrity: sha512-MYsBzfPki4gthY5HnYN7jgInhAZ7Ac1cYDoRWFomwGHWEX7odTEzbtg9kf/QSo7XEsEAqlQugA6gJ2WS2DEa3g==}
-    peerDependencies:
-      '@remix-run/react': ^2
-      '@sveltejs/kit': ^1 || ^2
-      next: '>= 13'
-      react: ^18 || ^19 || ^19.0.0-rc
-      svelte: '>= 4'
-      vue: ^3
-      vue-router: ^4
-    peerDependenciesMeta:
-      '@remix-run/react':
-        optional: true
-      '@sveltejs/kit':
-        optional: true
-      next:
-        optional: true
-      react:
-        optional: true
-      svelte:
-        optional: true
-      vue:
-        optional: true
-      vue-router:
-        optional: true
 
   '@vitejs/plugin-vue@5.2.1':
     resolution: {integrity: sha512-cxh314tzaWwOLqVes2gnnCtvBDcM1UMdn+iFR+UjAn411dPT3tOmqrJjbMd7koZpMAmBM/GqeV4n9ge7JSiJJQ==}
@@ -1577,11 +1548,6 @@ snapshots:
       vite: 6.2.0(jiti@2.4.2)(lightningcss@1.29.1)
 
   '@types/estree@1.0.6': {}
-
-  '@vercel/analytics@1.5.0(vue-router@4.5.0(vue@3.5.13))(vue@3.5.13)':
-    optionalDependencies:
-      vue: 3.5.13
-      vue-router: 4.5.0(vue@3.5.13)
 
   '@vitejs/plugin-vue@5.2.1(vite@6.2.0(jiti@2.4.2)(lightningcss@1.29.1))(vue@3.5.13)':
     dependencies:
