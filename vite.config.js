@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     tailwindcss(),
   ],
+  assetsInclude: ['**/*.svg'],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
