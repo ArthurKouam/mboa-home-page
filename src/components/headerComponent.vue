@@ -3,17 +3,14 @@
 
   const open = ref(false)
 
-  const nav = ref()
-
-
 </script>
 
 <template>
   <header class="w-full flex justify-center fixed top-0 left-0 right-0 h-20 md:h-24 z-50 bg-white">
     <div class=" w-full px-4 flex justify-between items-center lg:w-9/12 lg:px-0">
       <div><img src="/logo.png" width="180" alt="logo mboa digital"></div>
-      <nav :class="{'active': open}" id="nav" class=" duration-300 w-full translate-x-full opacity-0 md:translate-x-0 md:opacity-1 md:w-fit bg-white p-10 absolute top-20 right-0 md:flex md:relative md:top-0 items-center">
-        <ul ref="nav" class=" flex flex-col leading-11 md:flex-row min-h-screen md:min-h-0 text-3xl md:items-center gap-5 md:gap-10 md:text-sm text-black">
+      <nav :class="{'active': open}" class=" duration-300 w-full translate-x-full opacity-0 md:translate-x-0 md:opacity-100 md:w-fit bg-white p-10 md:p-0 absolute top-20 right-0 md:flex md:relative md:top-0 items-center">
+        <ul class=" flex flex-col leading-11 md:flex-row min-h-screen md:min-h-0 text-3xl md:items-center gap-5 md:gap-10 md:text-sm text-black">
           <li><RouterLink to="/">Acceuil</RouterLink></li>
           <li><RouterLink to="/about">A propos</RouterLink></li>
           <li><RouterLink to="/pricing">Tarification</RouterLink></li>
@@ -38,11 +35,10 @@
   }
 
   .active{
-    translate: 0;
-    opacity: 1;
-    transition: 600ms ease-out;
-    
-  }
+      translate: 0;
+      opacity: 1;
+      transition: 600ms ease-out;  
+    }
 
   @keyframes fade {
     0%{
