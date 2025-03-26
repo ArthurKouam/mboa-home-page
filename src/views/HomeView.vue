@@ -131,7 +131,7 @@
     </div>
 
     <Vue3Marquee :pause-on-hover="true" :clone="true">
-      <Icon class=" px-10 " v-for="(icon, n) in icons" :icon="'/src/assets/icon/'+ icon"></Icon>
+      <Icon class=" px-10 " v-for="(icon, n) in icons" :icon="'/icon/'+ icon"></Icon>
     </Vue3Marquee>
 
     <div class="md:grid md:grid-cols-12">
