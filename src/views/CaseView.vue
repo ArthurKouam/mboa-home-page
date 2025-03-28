@@ -3,32 +3,32 @@
 
   const cases = [
     {
-      img: "/src/assets/carousel3.svg",
+      img: "/carousel3.svg",
       title: "Plateforme Digitale : Une Réponse Agile aux Défis de la Télécommunication",
       tag: "Telecommunications",
     },
     {
-      img: "/src/assets/carousel2.png",
+      img: "/carousel2.png",
       title: "Réinvention Digitale : Un Nouvel Horizon pour la Livraison de Courrier en Océanie",
       tag: "Logistique",
     },
     {
-      img: "/src/assets/carousel4.svg",
+      img: "/carousel4.svg",
       title: "Révolution dans la Gestion des Retours : Un Système de RMA Innovant pour un Géant des Télécoms",
       tag: "Electronique",
     },
     {
-      img: "/src/assets/carousel6.svg",
+      img: "/carousel6.svg",
       title: "Révolution Numérique dans le Secteur de la Santé Pédiatrique",
       tag: "Santé",
     },
     {
-      img: "/src/assets/carousel7.svg",
+      img: "/carousel7.svg",
       title: "L'Automatisation au Service du Contrôle de Gestion",
       tag: "Nos produits",
     },
     {
-      img: "/src/assets/carousel1.svg",
+      img: "/carousel1.svg",
       title: "La Révolution de la Gestion de Paie au Cameroun",
       tag: "Nos produits",
     },
