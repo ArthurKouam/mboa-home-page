@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, onMounted } from 'vue'
+  import { ref } from 'vue'
 
   const open = ref(false)
 
@@ -12,10 +12,16 @@
       <nav :class="{'active': open}" class=" duration-300 w-full translate-x-full opacity-0 md:translate-x-0 md:opacity-100 md:w-fit bg-white p-10 md:p-0 absolute top-20 right-0 md:flex md:relative md:top-0 items-center">
         <ul class=" flex flex-col leading-11 md:flex-row min-h-screen md:min-h-0 text-3xl md:items-center gap-5 md:gap-10 md:text-sm text-black">
           <li><RouterLink to="/">Acceuil</RouterLink></li>
-          <li><RouterLink to="/about">A propos</RouterLink></li>
+          <li class="relative cursor-pointer group">
+            A propos
+            <ul class=" md:absolute md:shadow w-max px-2 py-2 md:hidden block group-hover:block">
+              <li><RouterLink to="/about/mission">Notre mission</RouterLink></li>
+              <li><RouterLink to="/about/teams">Notre équipe</RouterLink></li>
+            </ul>
+          </li>
           <li><RouterLink to="/pricing">Tarification</RouterLink></li>
           <li><RouterLink to="/case">Cas d'étude</RouterLink></li>
-          <li><RouterLink to="/contact-us">Contact</RouterLink></li>
+          <li><RouterLink to="/contact">Contact</RouterLink></li>
         </ul>
       </nav>
       <div class=" md:hidden">

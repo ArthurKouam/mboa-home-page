@@ -9,7 +9,6 @@
   import Icon from '@/components/home/Icon.vue';
   import { Vue3Marquee } from 'vue3-marquee';
   import Expertise from '@/components/home/Expertise.vue';
-  import FooterComponent from '@/components/FooterComponent.vue';
 
   const modules = [Navigation, Autoplay];
   const datas = [
@@ -145,8 +144,6 @@
     </div>
    
   </div>
-
-  <FooterComponent class=" mt-20 md:mt-28"></FooterComponent>
 
 </template>
 
